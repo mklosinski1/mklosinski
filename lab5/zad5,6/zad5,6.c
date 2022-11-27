@@ -15,27 +15,31 @@ int main()
     printf("b2 = ");
     scanf("%d", &b2);
     
-    if(a1<a2 && b1<b2 && b1>a2){
+    if(a1<=a2 && b1<=b2 && b1>=a2){
         a3 = a2;
         b3 = b1;
+        printf("Odcinek a3, b3 wynosi\n");
         printf("a3 = %i\n", a3);
         printf("b3 = %i\n", b3);
     }
-    else if(a2<a1 && b1<b2 && b1>a1){
+    else if(a2<=a1 && b1<=b2 && b1>=a1){
         a3 = a1;
         b3 = b1;
+        printf("Odcinek a3, b3 wynosi\n");
         printf("a3 = %i\n", a3);
         printf("b3 = %i\n", b3);
     }
-    else if(a1<a2 && b2<b1 && b2>a2){
+    else if(a1<=a2 && b2<=b1 && b2>=a2){
         a3 = a2;
         b3 = b2;
+        printf("Odcinek a3, b3 wynosi\n");
         printf("a3 = %i\n", a3);
         printf("b3 = %i\n", b3);  
     }
-    else if(a2<a1 && b2<b1 && b2>a1){
+    else if(a2<=a1 && b2<=b1 && b2>=a1){
         a3 = a1;
         b3 = b2;
+        printf("Odcinek a3, b3 wynosi:\n");
         printf("a3 = %i\n", a3);
         printf("b3 = %i\n", b3);
     }
